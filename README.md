@@ -10,8 +10,8 @@ Agyl Rahmadi / Gyl (agyl.ardi@gmail.com)<br />
 *Notes: This is my first attemp to make a JQuery plugin. Any feedback will be much appreciated*
 
 ## Usage 
-Download the package and link the JS file (jquery.radialresponsivemenu.js) and 
-CSS file (radial-responsive-menu.css) in your HTML file.
+Download the package and link the JS file (`jquery.radialresponsivemenu.js`) and 
+CSS file (`radial-responsive-menu.css`) in your HTML file.
 Also put *images* folder at the same directory with your HTML file.
 
 There are 3 menu levels available in the menu (class): `level-1`, `level-2`, `level-3`.
@@ -69,27 +69,39 @@ There are 9 options for this plugin. They are as the following:
 `circleRadius` is the size of menu items (circle radius) in pixel.
 <br />*Default value*: `60`
 
+----
+
 ### lv1_outerRing, lv2_outerRing & lv3_outerRing
 There are 2 *rings* which contains menu items in each menu levels: **Inner Ring** and **Outer Ring**.
 `lv1_outerRing`, `lv2_outerRing` & `lv3_outerRing` are options for disabling (false) or enabling (true) Outer Ring.
 If disabled then the menu level will only have 1 ring to be shown.
 <br />*Default value for those options*: `true`
 
+----
+
 ### innerRing_items
 `innerRing_items` is the amount of menu items in **Inner Ring** on each menu level.
 <br />*Default value*: `3`
+
+----
 
 ### outerRing_items
 `outerRing_items` is the amount of menu items in **Outer Ring** on each menu level.
 <br />*Default value*: `5`
 
+----
+
 ### innerRing_radius
 `innerRing_radius` is the radius (in pixel) of **Inner Ring** from toggle object on each menu level.
 <br />*Default value*: `85`
 
+----
+
 ### outerRing_radius
 `outerRing_radius` is the radius (in pixel) of **Outer Ring** from toggle object on each menu level.
 <br />*Default value*: `170`
+
+----
 
 ### togglePosition
 `togglePosition` is the position of toggle button on screen. As the menu is targeted to be used in mobile screen, there
