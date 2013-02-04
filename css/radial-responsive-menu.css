@@ -5,6 +5,7 @@
  * 3 February 2013
  */
 
+
 /*--------------  SAFELY CUSTOMIZABLE - Visual styling for menu elements -------------------*/
 
 .active { background-color: #222222 !important; color: #ffffff !important; z-index: 15; }
@@ -12,7 +13,7 @@
 	font-size: 0.8em;
 }
 
-/* Toggle Button */
+/*--------------  Toggle Button -------------- */
 #toggle-radial {
 	width: 55px;
 	height: 55px;
@@ -24,12 +25,12 @@
 		background: #222222 url('../image/3-lines-white.png') no-repeat center center;
 	}
 
-/* Menu Levels general styling */
+/* -------------- Menu Levels general styling -------------- */
 #radial-menu ul.level-1 { font-size: 1em; }
 #radial-menu ul.level-2 { font-size: 0.9em; }
 #radial-menu ul.level-3 { font-size: 0.9em; }
 
-/* Menu Items */
+/* -------------- Menu Items -------------- */
 #radial-menu > ul li {
 	background: #ffffff;
 	border: 1px solid #555555;
@@ -38,7 +39,7 @@
 	#radial-menu > ul li:hover { background-color: #222222; }
 	#radial-menu ul li.have-subs { border: 2px solid #FF4900; }
 
-/* Menu Items - Links */
+/* -------------- Menu Items - Links -------------- */
 #radial-menu ul li a { 
 	text-decoration: none; 
 	color: #333333;
