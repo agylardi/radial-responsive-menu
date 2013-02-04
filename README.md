@@ -10,8 +10,8 @@ Agyl Rahmadi / Gyl (agyl.ardi@gmail.com)<br />
 **Notes**: *This is my first attemp to make a JQuery plugin. Any feedback will be much appreciated*
 
 ## Usage 
-Download the package and link the JS file (`jquery.radialresponsivemenu.js`) and 
-CSS file (`radial-responsive-menu.css`) in your HTML file.
+Download the package and link the JS file (jquery .js file and this plugin file: `jquery.radialresponsivemenu.js`) and 
+CSS file (`radial-responsive-menu.css`) in your HTML.
 Also put *images* folder at the same directory with your HTML file.
 
 There are 3 menu levels available in the menu (class): `level-1`, `level-2`, `level-3`.
