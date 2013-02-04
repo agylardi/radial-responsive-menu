@@ -1,7 +1,7 @@
 Radial Responsive Menu (Alpha 1.0)
 ======================
 
-jQury plugin as alternative navigation menu system for responsive website.
+jQury plugin menu as alternative solution of navigation menu system for responsive website.
 Inspired and based on Path apps, and research on Radial Menu by Krystian Samp (http://krystiansamp.com).
 The menu system is customizable with some options. Built on jQuery version 1.8.3
 
