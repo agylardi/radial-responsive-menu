@@ -7,7 +7,7 @@ The menu system is customizable with some options.
 
 ## Author
 Agyl Rahmadi / Gyl (agyl.ardi@gmail.com)<br />
-*Notes: This is my first attemp to make a JQuery plugin. Any feedback will be much appreciated*
+**Notes**: *This is my first attemp to make a JQuery plugin. Any feedback will be much appreciated*
 
 ## Usage 
 Download the package and link the JS file (`jquery.radialresponsivemenu.js`) and 
