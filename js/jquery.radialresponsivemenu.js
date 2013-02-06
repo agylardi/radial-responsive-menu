@@ -45,7 +45,7 @@
 				case 'bottom-left':
 					xPosMod = 1;
 					yPosMod = -1;
-					yAdjustMod = -1;;
+					yAdjustMod = -1;
 					break;
 				default:
 					xPosMod = 1;
@@ -195,6 +195,9 @@
 
 				angleDegree = 0;
 				if(isOuterRing){
+					for( var index = options.innerRing_items; index < options.innerRing_items + options.outerRing_items; index++ ){
+						$(this).parent().children(selectParent).children('li:nth-child('+ (index+1) +')').removeClass('hide');		    				
+					}
 					/* ------------ Looping for OUTER Ring (if enabled) - Sub-Menu level toggle and animation ------------*/				
 					for( var index = options.innerRing_items; index < options.innerRing_items + options.outerRing_items; index++ ){
 			    		angleRad = angleDegree * toRadians;
@@ -213,14 +216,15 @@
 	};
 	
 	$.fn.radialResponsiveMenu.defaults = {
-		circleRadius: 60,
-		lv1_outerRing: true,
-		lv2_outerRing: true,
-		lv3_outerRing: true,
-		innerRing_items: 3,
-		outerRing_items: 5,
-		innerRing_radius: 85,
-		outerRing_radius: 170,
-		togglePosition: 'top-left',
+		'circleRadius': 60,
+		'lv1_outerRing': true,
+		'lv2_outerRing': true,
+		'lv3_outerRing': true,
+		'innerRing_items': 3,
+		'outerRing_items': 5,
+		'innerRing_radius': 85,
+		'outerRing_radius': 170,
+		'togglePosition': 'top-left'
 	};
+	
 })( jQuery );
