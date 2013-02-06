@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* --------------------------- CSS for Radial Responsive Menu ---------------------------*
+ * Created by Agyl Rahmadi
+ * Version 1.0 Alpha
+ * 3 February 2013
+ */
+
+
+/*--------------  SAFELY CUSTOMIZABLE - Visual styling for menu elements -------------------*/
+
+.active { background-color: #222222 !important; color: #ffffff !important; z-index: 15; }
+#radial-menu {
+	font-size: 0.8em;
+}
+
+/*--------------  Toggle Button -------------- */
+#toggle-radial {
+	width: 55px;
+	height: 55px;
+	border-radius: 55px;
+	border: 1px solid #555555;
+	background: #ffffff url('../image/3-lines.png') no-repeat center center;
+}
+	#toggle-radial:hover, #toggle-radial:active, #toggle-radial.active {
+		background: #222222 url('../image/3-lines-white.png') no-repeat center center;
+	}
+
+/* -------------- Menu Levels general styling -------------- */
+#radial-menu ul.level-1 { font-size: 1em; }
+#radial-menu ul.level-2 { font-size: 0.9em; }
+#radial-menu ul.level-3 { font-size: 0.9em; }
+
+/* -------------- Menu Items -------------- */
+#radial-menu > ul li {
+	background: #ffffff;
+	border: 1px solid #555555;
+	box-shadow: 0px 0px 3px #999999;			
+}
+	#radial-menu > ul li:hover { background-color: #222222; }
+	#radial-menu ul li.have-subs { border: 2px solid #FF4900; }
+
+/* -------------- Menu Items - Links -------------- */
+#radial-menu ul li a { 
+	text-decoration: none; 
+	color: #333333;
+}
+	/*#radial-menu ul li.have-subs > a { background: url("../image/multi-level-arrow.png") no-repeat right bottom; }*/
+	#radial-menu ul li.active > a { color: #ffffff; }
+	#radial-menu ul li > a:hover, nav.square ul li > a:active {
+		color: #ffffff; 
+	}
+
+/*--------------------------- RESTRICTED - Should not be modified ---------------------------*/
+input:focus { outline: none; }
+.hide { display: none !important; }
+.show { display: inherit !important; }
+/*.disable {  opacity: 0.2; } */
+
+#toggle-radial {
+	cursor: pointer;
+	position: relative;
+	z-index: 15;
+}
+
+#radial-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+#radial-menu > ul li {
+	display: block;			
+	position: absolute;
+}
+
+#radial-menu ul.level-2, #radial-menu ul.level-3 {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+	
+#radial-menu ul li a {	
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	/* Styling for unwrapped item labels (Experimental) 
+	display: block;
+	line-height: 55px;
+	margin-left: -50%;
+	white-space: nowrap;
+	*/
+}
+	
+/*Styling for unwrapped item labels (Experimental)
+.radial-label {
+	display: inline-block;
+	position: relative;
+	left: 50%;
+}*/
