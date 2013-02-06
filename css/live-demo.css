@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+* { margin:0; padding:0; }
+html { height: 100%; }
+body { font-family: Arial, Helvetica, sans-serif; background-color: #111111; height: 100%; }
+header {
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 0.8em;
+	background: #111111; 
+}
+h1 {
+	padding: 0;
+	font-size: 1.6em;
+	color: #efefef;
+	text-shadow: 0px 0px 1px #ffffff;
+}
+h2 {
+	margin: 0;
+	width: 360px;
+	height: 30px;
+	padding: 0px 12px 0px;
+	line-height: 30px;
+	background:#FFF;
+	font-size: 1.1em;
+	color: #111111;
+	text-shadow: 0px 0px 1px #111111;
+}
+
+h3 {
+	margin-top: 25px;
+	padding: 0px 12px 0px;
+	font-size: 1em;
+	color: #111111;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+.positioned {
+	width: 55px;
+	height: 55px;
+	position: absolute;
+}
+#main-container { 
+	width: 978px; 
+	min-height: 98%;
+	margin: 0 auto; 
+	padding: 0 10px 10px;
+	background: #111111; 
+}
+#demo-area { 
+	width: 574px; 
+	height: 574px;
+	float: right; 
+	border: #ffffff 2px solid; 	
+	background: #ffffff;
+	box-shadow: inset 0 0 10px #111111;
+	position: relative;
+}
+	#demo-area h4 { text-align: center; }
+
+#update-notif {
+	width: 125px;
+	font-size: 2em;
+	font-weight: bold;
+	color: #FF4900;
+	position: absolute;
+	top: 45%;
+	left: 217px;
+}
+
+#options-area {
+	width: 374px;
+	height: 564px;
+	padding: 0 10px 10px 0px;
+	float: left;
+	border: 2px solid #FFFFFF;
+	background: #bbbbbb;
+	position: relative;
+}
+#rrm-options {
+	width: 360px;
+	padding: 10px;
+	position: relative;
+}
+
+#rrm-options button {
+	width: 100px;
+	padding: 3px;
+	position: absolute;
+	left: 169px;
+	bottom: -25px;
+	display: block;
+}
+
+#options-area label {
+	float: left;
+	clear: both;
+	width: 140px;
+	margin-bottom: 7px;
+	text-align: right;
+	font-size: 0.9em;
+	text-shadow: 0px 1px 1px #ffffff;
+}
+
+#options-area input, #options-area select { 
+	margin: 0px 0 7px 1.5em; 
+}
+
+#options-area select { width: 100px; }
+#options-area input[type="text"] { 
+	width: 100px;
+	height: 18px;
+	padding: 1px;
+	border: 1px solid #dddddd;
+	box-shadow: inset 0px 1px 2px #333333;
+}
+
+#options-area span {
+	padding: 3px;
+	margin: 0 0 0 0px;
+	border-radius: 0px 5px 5px 0;
+	font-size: 0.8em;
+	background: #dddddd;
+	color: #111111;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+#options-area textarea {
+	width: 365px;
+	height: 180px;
+	margin-left: 10px;
+	margin-top: 5px;
+	resize: none;
+}
+
+#options-area p {
+	width: 374px;
+	padding: 5px 5px;
+	font-size: 0.8em;
+	text-shadow: 0px 1px 0px #ffffff;
+	background: #ffffff;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+#options-area p a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FF4900;
+}
