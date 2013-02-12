@@ -106,6 +106,6 @@ If disabled then the menu level will only have 1 ring to be shown.
 ### togglePosition
 `togglePosition` is the position of toggle button on screen. As the menu is targeted to be used in mobile screen, there
 are 4 value for this options: `top-left`, `top-right`, `bottom-right` and `bottom-left`.
-This option determine the appearance direction of menu items.
+This option determine the appearance direction of menu items NOT the position of toggle button.
 <br />*Default value*: `top-left`
 
