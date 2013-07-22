@@ -5,7 +5,7 @@ jQuery plugin menu as alternative solution of navigation menu system for respons
 Inspired and based on Path apps, and research on Radial Menu by Krystian Samp (http://krystiansamp.com).
 The menu system is customizable with some options. Built using jQuery version 1.8.3 and CSS 3
 
-[ <a href="http://www.oswego.edu/~arahmadi/radial-menu/" target="_blank">Live Demo</a> ]
+[ <a href="http://agylardi.com/demo/radial-menu/" target="_blank">Live Demo</a> ]
 
 ## Author
 Agyl Rahmadi / Gyl (agyl.ardi@gmail.com)<br />
